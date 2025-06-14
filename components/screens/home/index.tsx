@@ -22,7 +22,7 @@ export default function Home() {
         </p>
       </FadeIn.Item>
       <FadeIn.Item>
-        <Posts category="guides" title="Projects (2)" />
+        <Posts category="guides" />
       </FadeIn.Item>
       <FadeIn.Item>
         <Posts category="examples" />
@@ -33,5 +33,5 @@ export default function Home() {
       </FadeIn.Item>
     </FadeIn.Container>
   );
-
 }
+
