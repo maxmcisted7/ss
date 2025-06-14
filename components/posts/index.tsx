@@ -22,9 +22,10 @@ export const Posts = ({ category }: PostProps) => {
   return (
     <div className="mt-6 flex flex-col">
       <NextViewTransition href={`/${category}`} className="flex justify-between">
-      <h2 className="py-2 text-muted capitalize">
+     <h2 className="py-2 text-muted capitalize">
   {category === "guides" ? "Projects" : category} ({posts.length})
 </h2>
+
       </NextViewTransition>
 
       {posts.map((post) => {
