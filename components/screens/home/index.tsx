@@ -11,16 +11,15 @@ export default function Home() {
       <FadeIn.Item>
         <div className="flex justify-between">
           <div>
-            <h1>Sylph</h1>
-            <h2>Next.js Portfolio Starter</h2>
+            <h1>Max McIsted</h1>
+            <h2>Designer working on brand systems in deep tech</h2>
           </div>
         </div>
       </FadeIn.Item>
       <Spacer />
       <FadeIn.Item>
         <p>
-          Hello, I'm Max McIsted.
-I'm a designer from Cambridge. I create brand and visual identity systems.
+          Currently finishing a BA in Graphic Design & Communication. Previous work at Arm (brand rollout) and Pragmatic (internal tooling, visual systems). I build the parts of brand that survive implementation.
         </p>
       </FadeIn.Item>
       <FadeIn.Item>
