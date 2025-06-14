@@ -25,7 +25,18 @@ export default function Home() {
         <Posts category="guides" />
       </FadeIn.Item>
       <FadeIn.Item>
-        <Posts category="examples" />
+        <div className="mt-6">
+          <h2 className="py-2 text-muted capitalize">Contact</h2>
+          <div className="border-border border-t" />
+          <div className="flex justify-between py-2">
+            <p>Reach out for work, questions, or just to share something interesting.</p>
+            <p>
+              <a href="mailto:max.mcisted@arm.com" className="text-muted underline">
+                max.mcisted@arm.com
+              </a>
+            </p>
+          </div>
+        </div>
       </FadeIn.Item>
       <Spacer />
       <FadeIn.Item>
