@@ -1,6 +1,7 @@
 import { Footer } from "@/components/footer";
 import * as FadeIn from "@/components/motion/staggers/fade";
 import { Posts } from "@/components/posts";
+import React from "react";
 
 const Spacer = () => <div style={{ marginTop: "24px" }} />;
 
@@ -30,11 +31,14 @@ export default function Home() {
           <div className="border-border border-t" />
           <div className="flex justify-between py-2">
             <p>Reach out for work, questions, or just to share something interesting.</p>
-            <p>
-              <a href="mailto:max.mcisted@arm.com" className="text-muted underline">
-                max.mcisted@arm.com
+            <div className="flex gap-4">
+              <a href="https://linkedin.com/in/maxmcisted" className="text-muted underline">
+                LinkedIn
               </a>
-            </p>
+              <a href="mailto:max.mcisted@arm.com" className="text-muted underline">
+                Email
+              </a>
+            </div>
           </div>
         </div>
       </FadeIn.Item>
